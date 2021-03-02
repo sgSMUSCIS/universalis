@@ -1,4 +1,4 @@
-# SMU SCIS UNIVERSALIS STATIC
----
+# Singapore Management University
 ## School of Computing and Information Systems
-## Singapore Management University
+---
+#### SMU SCIS UNIVERSALIS STATIC
