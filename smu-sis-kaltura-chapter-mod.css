@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .sideBarContainer {
+    left: 0 !important;
+  }
+
+  .videoHolder {
+    width: 70% !important;
+    left: 30% !important;
+  }
+
+  .k-medialist-header,
+  .chapters > .k-chapters-container ul li.mediaBox.slideBox,
+  .sideBarContainerReminder.left:focus #sideBarContainerReminderContainer,
+  .sideBarContainerReminder.left.open #sideBarContainerReminderContainer,
+  .sideBarContainerReminder.right:focus #sideBarContainerReminderContainer,
+  .sideBarContainerReminder.right.open #sideBarContainerReminderContainer,
+  button.slideBoxToggle.icon-toggle,
+  .chapters > .footer {
+    display: none !important;
+  }
+}

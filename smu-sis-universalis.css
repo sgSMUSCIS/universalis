@@ -1,0 +1,3571 @@
+/* @aaronleesmusmu | School of Information Systems | Singapore Management University */
+
+#main-app .container {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0
+}
+
+#main-app .container-fluid {
+    padding-left: inherit
+}
+
+#main-app .container-fluid>.navbar-collapse, #main-app .container-fluid>.navbar-header, #main-app .container>.navbar-collapse, #main-app .container>.navbar-header, #main-app .container>.navbar-header.container-fluid>.navbar-collapse {
+    margin: 0
+}
+
+@media screen and (min-width: 1200px) {
+    #main-app .container {
+        width: 996px
+    }
+}
+
+#main-app .row {
+    margin-right: 0;
+    margin-left: 0
+}
+
+#main-app .col-lg-1, #main-app .col-lg-10, #main-app .col-lg-11, #main-app .col-lg-12, #main-app .col-lg-2, #main-app .col-lg-3, #main-app .col-lg-4, #main-app .col-lg-5, #main-app .col-lg-6, #main-app .col-lg-7, #main-app .col-lg-8, #main-app .col-lg-9, #main-app .col-md-1, #main-app .col-md-10, #main-app .col-md-11, #main-app .col-md-12, #main-app .col-md-2, #main-app .col-md-3, #main-app .col-md-4, #main-app .col-md-5, #main-app .col-md-6, #main-app .col-md-7, #main-app .col-md-8, #main-app .col-md-9, #main-app .col-sm-1, #main-app .col-sm-10, #main-app .col-sm-11, #main-app .col-sm-12, #main-app .col-sm-2, #main-app .col-sm-3, #main-app .col-sm-4, #main-app .col-sm-5, #main-app .col-sm-6, #main-app .col-sm-7, #main-app .col-sm-8, #main-app .col-sm-9, #main-app .col-xs-1, #main-app .col-xs-10, #main-app .col-xs-11, #main-app .col-xs-12, #main-app .col-xs-2, #main-app .col-xs-3, #main-app .col-xs-4, #main-app .col-xs-5, #main-app .col-xs-6, #main-app .col-xs-7, #main-app .col-xs-8, #main-app .col-xs-9 {
+    padding: 0
+}
+
+#main-app .col-lg-5ths, #main-app .col-md-5ths, #main-app .col-sm-5ths, #main-app .col-xs-5ths {
+    position: relative;
+    min-height: 1px
+}
+
+#main-app .col-xs-5ths {
+    float: left;
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    #main-app .col-sm-5ths {
+        float: left;
+        width: 20%
+    }
+}
+
+@media (min-width: 992px) {
+    #main-app .col-md-5ths {
+        float: left;
+        width: 20%
+    }
+}
+
+@media (min-width: 1200px) {
+    #main-app .col-lg-5ths {
+        float: left;
+        width: 20%
+    }
+}
+
+#main-app .col-lg-7ths, #main-app .col-md-7ths, #main-app .col-sm-7ths, #main-app .col-xs-7ths {
+    position: relative;
+    min-height: 1px
+}
+
+#main-app .col-xs-7ths {
+    float: left;
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    #main-app .col-sm-7ths {
+        float: left;
+        width: 14.2857%
+    }
+}
+
+@media (min-width: 992px) {
+    #main-app .col-md-7ths {
+        float: left;
+        width: 14.2857%
+    }
+}
+
+@media (min-width: 1200px) {
+    #main-app .col-lg-7ths {
+        float: left;
+        width: 14.2857%
+    }
+}
+
+.btn.btn-default {
+    color: #fff;
+    text-shadow: none
+}
+
+#main-app .caret.caret-large {
+    margin: 0 10px;
+    border-top: 10px solid;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent
+}
+
+#main-app .navbar-inner {
+    padding: 0;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: inherit
+}
+
+#main-app .navbar {
+    min-height: inherit;
+    margin: 0
+}
+
+#main-app .navbar .navbar-collapse, #main-app .navbar .navbar-nav, #main-app .navbar-nav {
+    clear: none;
+    margin: 0;
+    padding: 0
+}
+
+#main-app .navbar-default {
+    z-index: 1;
+    border: none;
+    border-radius: 0;
+    background: #333;
+    box-shadow: none
+}
+
+#main-app .navbar-default .navbar-nav {
+    background: 0 0
+}
+
+#main-app .navbar-default .navbar-nav > li > .dropdown-menu { border-radius:0; }
+#main-app .navbar-default .navbar-nav>li>a, #main-app .navbar-default a { 
+    line-height: 14px; 
+    cursor: pointer;
+}
+
+#main-app .nav>li>a {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0
+}
+
+#main-app .navbar-default a.navbar-brand {
+    color: #c69200;
+    border: none;
+    background: 0 0 !important;
+    box-shadow: none !important
+}
+
+#main-app .navbar-default a {
+    color: #c69200
+}
+
+#main-app .nav-tabs {
+    border: none;
+    background: #d5a10d
+}
+
+#main-app .nav-tabs>li {
+    float: left;
+    margin-bottom: 0
+}
+
+#main-app .nav-tabs>li>a {
+    font: "Open Sans", sans-serif;
+    line-height: 14px; 
+    margin-right: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #121212;
+    border: 1px solid transparent;
+    border-radius: 0
+}
+
+#main-app .nav-tabs>li>a:hover {
+    border-color: #d5a10d
+}
+
+#main-app .nav-tabs>li.active>a, #main-app .nav-tabs>li.active>a:focus, #main-app .nav-tabs>li.active>a:hover {
+    cursor: default;
+    color: #d5a10d;
+    background-color: #333
+}
+
+@media (max-width: 767px) {
+    #main-app .modal-dialog {
+        width: 90% !important
+    }
+}
+
+.SISReactUniversalis.SISPanelGridListElementModal .modal-dialog {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+.SISReactUniversalis.SISPanelGridListElementModal.PROFILES .modal-dialog h4.modal-title {
+    color: #fff
+}
+
+@media screen and (max-width: 768px) {
+    .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog {
+        width: 90%;
+        margin: 0 auto
+    }
+}
+
+#main-app .panel {
+    line-height: 16px;
+    width: 99%;
+    margin: 10px .5%;
+    padding: 8px;
+    float: left
+}
+
+#main-app a:hover .panel {
+    text-decoration: none;
+    cursor: hand;
+    cursor: pointer
+}
+
+#main-app .panel-heading .panel-title>a {
+    cursor: pointer !important;
+    cursor: hand;
+}
+
+#main-app .panel.padding-clear {
+    padding: 0
+}
+
+#main-app .panel.padding-3px, .padding-3px {
+    padding: 3px
+}
+
+#main-app .panel.margin-clear {
+    margin: 0
+}
+
+#main-app .panel.margin-vertical-clear {
+    margin: 0 auto
+}
+
+#main-app .panel.margin-vertical-3px {
+    margin: 3px auto
+}
+
+#main-app .panel.margin-vertical-bottom-3px {
+    margin: 0 auto 3px auto
+}
+
+#main-app .panel.margin-vertical-10px {
+    margin: 10px auto
+}
+
+#main-app .panel ul:not(.nav-tabs) {
+    padding-left: 15px
+}
+
+#main-app .panel h4 {
+    font-size: 1.15em;
+    line-height: 1em;
+    text-transform: uppercase
+}
+
+#main-app .react-app-root[selectclass=TESTIMONIALS][selectarea=SMT] .panel h3 {
+    font-size: 1.5em
+}
+
+#main-app .react-app-root[selectclass=TESTIMONIALS][selectarea=SMT] .panel h4 {
+    font-size: 1em
+}
+
+#main-app .panel h4.sisboardadvisors_title {
+    font-size: 1.05em
+}
+
+#main-app .panel h5 {
+    font-size: .95em
+}
+
+#main-app h1.margin-clear, #main-app h2.margin-clear, #main-app h3.margin-clear, #main-app h4.margin-clear, #main-app h5.margin-clear, #main-app h6.margin-clear {
+    margin: 0
+}
+
+#main-app .panel, #main-app .panel-default {
+    border-color: inherit;
+    border-radius: 0
+}
+
+#main-app .panel:hover {
+    position: relative;
+    top: -2px;
+    border: solid 1px #d5a10d
+}
+
+#main-app .panel.hover-no-effect:hover, .hover-no-effect a, .hover-no-effect:hover, a.SISBTNMOD.SISBTNMOD-LG.hover-no-effect:hover, a.hover-no-effect:hover {
+    position: static;
+    cursor: default;
+    text-decoration: none;
+    top: 0
+}
+
+#main-app .react-app-root[selectdatatype="PROFILES"] .panel a, #main-app .panel .view_format_reslinks a.hover-no-effect:hover, 
+#main-app .panel .view_format_reslinks a, #main-app .panel .view_format_reslinks a:hover, 
+#main-app .hover-no-effect .view_format_reslinks a, #main-app .hover-no-effect .view_format_reslinks a:hover {
+    cursor: pointer;
+}
+
+#main-app .panel-default.panel-border-none, #main-app .panel.panel-border-none, .panel-default.panel-border-none, .panel.panel-border-none {
+    border: solid 1px transparent;
+    box-shadow: none
+}
+
+#main-app .panel-default.panel-border-none:hover, #main-app .panel.panel-border-none:hover {
+    position: static;
+    border: solid 1px transparent
+}
+
+#main-app .panel-default.panel-sis {
+    border: solid 1px #d1d1d1;
+    background: #f1f1f1
+}
+
+#main-app .panel-default.panel-sis>.panel-heading {
+    font-weight: 700;
+    color: #121212;
+    background: #d5a10d;
+    filter: none
+}
+
+#main-app .panel-default.panel-sis.panel-gold>.panel-heading {
+    font-weight: 700;
+    color: #fff;
+    background: #70542b;
+    filter: none
+}
+
+#main-app .panel-default.panel-sis.panel-dpurple>.panel-heading {
+    font-weight: 700;
+    color: #fff;
+    background: #4a166e;
+    filter: none
+}
+
+#main-app .panel-default.panel-sis.panel-dyellow-dpurple>.panel-heading, #main-app .panel-dyellow-dpurple, .background-dyellow-dpurple {
+    font-weight: 700;
+    color: #fff;
+    background: #333f50;
+    background: -moz-linear-gradient(-75deg, #c69200 25%, #4a166e 75%);
+    background: -webkit-linear-gradient(-75deg, #c69200 25%, #4a166e 75%);
+    background: linear-gradient(165deg, #c69200 25%, #4a166e 75%)
+}
+
+#main-app .panel-default.panel-sis.panel-dyellow>.panel-heading, #main-app .panel-dyellow {
+    font-weight: 700;
+    color: #121212;
+    background: #c69200
+}
+
+#main-app .panel-default.panel-sis.background-grey-dark {
+    background: #333
+}
+
+#main-app .panel-default.panel-sis.invert>.panel-heading {
+    font-weight: 700;
+    color: #d5a10d;
+    background: #333;
+    filter: none
+}
+
+#main-app .panel-default.panel-sis>.panel-body {
+    padding: 5px
+}
+
+#main-app .panel-alumni-stories h4 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 21px
+}
+
+#main-app .view-mode-list-simple {
+    width: 100%;
+    float: left
+}
+
+#main-app .view-mode-list-simple .panel.panel-sis>.panel-heading {
+    float: left;
+    width: 20%
+}
+
+#main-app .panel-title h5, #main-app h5.panel-title {
+    font-size: 12px;
+    font-weight: 700
+}
+
+#main-app .panel-title h6, #main-app h6.panel-title {
+    font-size: 10px;
+    font-weight: 700
+}
+
+#main-app .panel-default.panel-listings-2ndmajors-lkcsb, #main-app .panel-default.panel-listings-2ndmajors-sis, #main-app .panel-default.panel-listings-2ndmajors-smu, #main-app .panel-default.panel-listings-2ndmajors-soa, #main-app .panel-default.panel-listings-2ndmajors-soe, #main-app .panel-default.panel-listings-2ndmajors-sol, #main-app .panel-default.panel-listings-2ndmajors-soss, #main-app .panel-default.panel-sis {
+    padding: 0
+}
+
+#main-app .panel-default.panel-sis {
+    margin: 10px .5%
+}
+
+#main-app .panel-default.panel-sis.margin-vertical-3px {
+    margin: 3px auto
+}
+
+#main-app .panel-default.panel-sis.margin-vertical-bottom-3px {
+    margin: 0 auto 3px auto
+}
+
+#main-app .panel-default.panel-listings-2ndmajors-lkcsb>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-sis>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-smu>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-soa>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-soe>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-sol>.panel-heading, #main-app .panel-default.panel-listings-2ndmajors-soss>.panel-heading, #main-app .panel-default.panel-sis>.panel-heading {
+    padding: 2px;
+    border-radius: 0
+}
+
+#main-app .panel-default.panel-sis .panel-body, #main-app .panel-default.panel-sis .panel-heading, #main-app .panel-default.panel-sis .panel-heading .panel-title, #main-app .panel-default.panel-sis .panel-heading .panel-title>a, #main-app .panel-default.panel-sis .panel-heading h4, #main-app .panel-default.panel-sis .panel-heading h5 {
+    float: left;
+    width: 100%
+}
+
+#main-app .panel-default.panel-sis .panel-heading .panel-title, #main-app .panel-default.panel-sis .panel-heading h4, #main-app .panel-default.panel-sis .panel-heading h5 {
+    padding: 3px
+}
+
+#main-app .panel-default.panel-sis .panel-heading .panel-title>a:before {
+    float: right !important;
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    content: "\f068";
+    padding-right: 5px
+}
+
+#main-app .panel-default.panel-sis .panel-heading .panel-title>a.collapsed:before {
+    float: right !important;
+    content: "\f067"
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel-default.panel-sis .panel-heading .panel-title>a.collapsed:before, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel-default.panel-sis .panel-heading .panel-title>a:before, #main-app #smu-sis-undergrad-curriculum-structure .panel-default.panel-sis .panel-heading .panel-title>a.collapsed:before, #main-app #smu-sis-undergrad-curriculum-structure .panel-default.panel-sis .panel-heading .panel-title>a:before {
+    content: '' !important
+}
+
+#main-app .panel-default.panel-sis .panel-heading .caret.caret-large {
+    display: none
+}
+
+#main-app .panel-default.panel-research>.panel-heading {
+    padding: 4px
+}
+
+#main-app .panel-default.panel-research.DMA>.panel-heading {
+    color: #fff;
+    background: #31859c
+}
+
+#main-app .panel-default.panel-research.CYBSEC>.panel-heading, #main-app .panel-default.panel-research.IST>.panel-heading {
+    color: #fff;
+    background: #09f
+}
+
+#main-app .panel-default.panel-research.ISM>.panel-heading {
+    color: #fff;
+    background: #7030a0
+}
+
+#main-app .panel-default.panel-research.ISD>.panel-heading {
+    color: #fff;
+    background: #c03
+}
+
+#main-app .panel-default.panel-research.SCPS>.panel-heading, #main-app .panel-default.panel-research.SS>.panel-heading {
+    color: #fff;
+    background: #ce610f
+}
+
+#main-app .panel-default.panel-invert {
+    background: #111
+}
+
+#main-app .panel.panel-ug-2ndmjr-abt {
+    border: 1px solid #333;
+    border-right-color: #d5a10d
+}
+
+#main-app .panel.hover-expand {
+    position: relative;
+    overflow-y: hidden;
+    width: 95%;
+    margin: 0 auto;
+    -webkit-box-shadow: inset 0 -8px 8px 0 rgba(51, 51, 51, .35);
+    -moz-box-shadow: inset 0 -8px 8px 0 rgba(51, 51, 51, .35);
+    box-shadow: inset 0 -8px 8px 0 rgba(51, 51, 51, .35)
+}
+
+@media screen and (min-width: 992px) {
+    #main-app .panel.hover-expand:hover {
+        transform: translateY(-5px) translateZ(0) scaleY(1);
+        -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+        -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+        height: auto
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #main-app .panel.hover-expand {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        height: auto;
+        margin: 8px auto
+    }
+}
+
+#main-app .panel-card-info {
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #d7d7d7
+}
+
+#main-app .panel-card-info>img {
+    width: 100px;
+    margin-bottom: 60px
+}
+
+#main-app .panel-card-info .panel-card-info-details {
+    position: absolute;
+    bottom: -102%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 12px 8px;
+    text-align: left;
+    color: #121212;
+    background: #fff
+}
+
+#main-app .panel-card-info:hover .panel-card-info-details {
+    bottom: 0;
+    overflow: auto
+}
+
+#main-app .height-auto, #main-app .nav>li>a.height-auto, #main-app .panel.panel-height-auto {
+    height: auto !important;
+}
+
+#main-app .height-30px, #main-app .nav>li>a.height-30px, #main-app .panel.panel-height-30px {
+    height: 30px
+}
+
+#main-app .height-35px, #main-app .nav>li>a.height-35px, #main-app .panel.panel-height-35px {
+    height: 35px
+}
+
+#main-app .height-45px, #main-app .nav>li>a.height-45px, #main-app .panel.panel-height-45px {
+    height: 45px
+}
+
+#main-app .height-60px, #main-app .nav>li>a.height-60px, #main-app .panel.panel-height-60px {
+    height: 60px
+}
+
+#main-app .height-70px, #main-app .nav>li>a.height-70px, #main-app .panel.panel-height-70px {
+    height: 70px
+}
+
+#main-app .height-80px, #main-app .height-80px_45px, #main-app .nav>li>a.height-80px, #main-app .nav>li>a.height-80px_45px, #main-app .panel.panel-height-80px, #main-app .panel.panel-height-80px_45px {
+    height: 80px
+}
+
+#main-app .height-100px, #main-app .nav>li>a.height-100px, #main-app .panel.panel-height-100px {
+    height: 100px
+}
+
+#main-app .height-120px, #main-app .nav>li>a.height-120px, #main-app .panel.panel-height-120px {
+    height: 120px
+}
+
+#main-app .height-140px, #main-app .nav>li>a.height-140px, #main-app .panel.panel-height-140px {
+    height: 140px
+}
+
+#main-app .height-160px, #main-app .nav>li>a.height-160px, #main-app .panel.panel-height-160px {
+    height: 160px
+}
+
+#main-app .height-180px, #main-app .nav>li>a.height-180px, #main-app .panel.panel-height-180px {
+    height: 180px
+}
+
+#main-app .height-200px, #main-app .nav>li>a.height-200px, #main-app .panel.panel-height-200px {
+    height: 200px
+}
+
+#main-app .height-220px, #main-app .nav>li>a.height-220px, #main-app .panel.panel-height-220px {
+    height: 220px
+}
+
+#main-app .height-240px, #main-app .nav>li>a.height-240px, #main-app .panel.panel-height-240px {
+    height: 240px
+}
+
+#main-app .height-280px, #main-app .nav>li>a.height-280px, #main-app .panel.panel-height-280px {
+    height: 280px
+}
+
+#main-app .height-320px, #main-app .nav>li>a.height-320px, #main-app .panel.panel-height-320px {
+    height: 320px
+}
+
+#main-app .height-360px, #main-app .nav>li>a.height-360px, #main-app .panel.panel-height-360px {
+    height: 360px
+}
+
+#main-app .height-400px, #main-app .nav>li>a.height-400px, #main-app .panel.panel-height-400px {
+    height: 400px
+}
+
+#main-app .height-440px, #main-app .nav>li>a.height-440px, #main-app .panel.panel-height-440px {
+    height: 440px
+}
+
+#main-app .height-480px, #main-app .nav>li>a.height-480px, #main-app .panel.panel-height-480px {
+    height: 480px
+}
+
+#main-app .height-500px, #main-app .nav>li>a.height-500px, #main-app .panel.panel-height-500px {
+    height: 500px
+}
+
+#main-app .height-550px, #main-app .nav>li>a.height-550px, #main-app .panel.panel-height-550px {
+    height: 550px
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    #main-app .height-30px, #main-app .nav>li>a.height-30px, #main-app .panel.panel-height-30px, .height-30px {
+        height: calc(30px + 1em)
+    }
+    #main-app .height-35px, #main-app .nav>li>a.height-35px, #main-app .panel.panel-height-35px, .height-35px {
+        height: calc(35px + 1em)
+    }
+    #main-app .height-45px, #main-app .height-80px_45px, #main-app .nav>li>a.height-45px, #main-app .panel.panel-height-45px, .height-45px, .height-80px_45px {
+        height: calc(45px + 1em)
+    }
+    #main-app .height-60px, #main-app .nav>li>a.height-60px, #main-app .panel.panel-height-60px, .height-60px {
+        height: calc(60px + 1em)
+    }
+    #main-app .height-70px, #main-app .nav>li>a.height-70px, #main-app .panel.panel-height-70px, .height-70px {
+        height: calc(70px + 1em)
+    }
+    #main-app .height-80px, #main-app .nav>li>a.height-80px, #main-app .panel.panel-height-80px, .height-80px {
+        height: calc(80px + 1em)
+    }
+    #main-app .height-100px, #main-app .nav>li>a.height-100px, #main-app .panel.panel-height-100px, .height-100px {
+        height: calc(100px + 1em)
+    }
+    #main-app .height-120px, #main-app .nav>li>a.height-120px, #main-app .panel.panel-height-120px, .height-120px {
+        height: calc(120px + 1em)
+    }
+    #main-app .height-140px, #main-app .nav>li>a.height-140px, #main-app .panel.panel-height-140px, .height-140px {
+        height: calc(140px + 1em)
+    }
+    #main-app .height-160px, #main-app .nav>li>a.height-160px, #main-app .panel.panel-height-160px, .height-160px {
+        height: calc(160px + 1em)
+    }
+    #main-app .height-200px, #main-app .nav>li>a.height-200px, #main-app .panel.panel-height-200px, .height-200px {
+        height: calc(200px + 1em)
+    }
+    #main-app .height-220px, #main-app .nav>li>a.height-220px, #main-app .panel.panel-height-220px, .height-220px {
+        height: calc(220px + 1em)
+    }
+    #main-app .height-240px, #main-app .nav>li>a.height-240px, #main-app .panel.panel-height-240px, .height-240px {
+        height: calc(240px + 1em)
+    }
+    #main-app .height-280px, #main-app .nav>li>a.height-280px, #main-app .panel.panel-height-280px, .height-280px {
+        height: calc(280px + 1em)
+    }
+    #main-app .height-320px, #main-app .nav>li>a.height-320px, #main-app .panel.panel-height-320px, .height-320px {
+        height: calc(320px + 1em)
+    }
+    #main-app .height-360px, #main-app .nav>li>a.height-360px, #main-app .panel.panel-height-360px, .height-360px {
+        height: calc(360px + 1em)
+    }
+    #main-app .height-400px, #main-app .nav>li>a.height-400px, #main-app .panel.panel-height-400px, .height-400px {
+        height: calc(400px + 1em)
+    }
+    #main-app .height-440px, #main-app .nav>li>a.height-440px, #main-app .panel.panel-height-440px, .height-440px {
+        height: calc(440px + 1em)
+    }
+    #main-app .height-480px, #main-app .nav>li>a.height-480px, #main-app .panel.panel-height-480px, .height-480px {
+        height: calc(480px + 1em)
+    }
+    #main-app .height-500px, #main-app .nav>li>a.height-500px, #main-app .panel.panel-height-500px, .height-500px {
+        height: calc(500px + 1em)
+    }
+    #main-app .height-550px, #main-app .nav>li>a.height-550px, #main-app .panel.panel-height-550px, .height-550px {
+        height: calc(550px + 1em)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-app .height-100px, #main-app .height-120px, #main-app .height-140px, #main-app .height-160px, #main-app .height-180px, #main-app .height-200px, #main-app .height-220px, #main-app .height-240px, #main-app .height-280px, #main-app .height-30px, #main-app .height-320px, #main-app .height-35px, #main-app .height-360px, #main-app .height-400px, #main-app .height-440px, #main-app .height-45px, #main-app .height-480px, #main-app .height-500px, #main-app .height-550px, #main-app .height-60px, #main-app .height-70px, #main-app .height-80px, #main-app .height-80px_45px, #main-app .nav>li>a.height-100px, #main-app .nav>li>a.height-120px, #main-app .nav>li>a.height-140px, #main-app .nav>li>a.height-160px, #main-app .nav>li>a.height-180px, #main-app .nav>li>a.height-200px, #main-app .nav>li>a.height-220px, #main-app .nav>li>a.height-240px, #main-app .nav>li>a.height-280px, #main-app .nav>li>a.height-30px, #main-app .nav>li>a.height-320px, #main-app .nav>li>a.height-35px, #main-app .nav>li>a.height-360px, #main-app .nav>li>a.height-400px, #main-app .nav>li>a.height-440px, #main-app .nav>li>a.height-45px, #main-app .nav>li>a.height-480px, #main-app .nav>li>a.height-500px, #main-app .nav>li>a.height-550px, #main-app .nav>li>a.height-60px, #main-app .nav>li>a.height-70px, #main-app .nav>li>a.height-80px, #main-app .nav>li>a.height-80px_45px, #main-app .panel.panel-height-100px, #main-app .panel.panel-height-120px, #main-app .panel.panel-height-140px, #main-app .panel.panel-height-160px, #main-app .panel.panel-height-180px, #main-app .panel.panel-height-200px, #main-app .panel.panel-height-220px, #main-app .panel.panel-height-240px, #main-app .panel.panel-height-280px, #main-app .panel.panel-height-30px, #main-app .panel.panel-height-320px, #main-app .panel.panel-height-35px, #main-app .panel.panel-height-360px, #main-app .panel.panel-height-400px, #main-app .panel.panel-height-440px, #main-app .panel.panel-height-45px, #main-app .panel.panel-height-480px, #main-app .panel.panel-height-500px, #main-app .panel.panel-height-550px, #main-app .panel.panel-height-60px, #main-app .panel.panel-height-70px, #main-app .panel.panel-height-80px, #main-app .panel.panel-height-80px_45px {
+        height: auto
+    }
+}
+
+#main-app .modal-dialog {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    display: inherit !important;
+    height: auto !important
+}
+
+#main-app .modal-dialog a {
+    cursor: pointer !important
+}
+
+#main-app .modal-content {
+    border-radius: 0 !important
+}
+
+#main-app .modal-dialog .close {
+    font-size: 35px;
+    opacity: .5
+}
+
+#main-app .modal-dialog h4.modal-title {
+    padding-left: 5px
+}
+
+#main-app .modal-body {
+    padding: 0 0 8px 0
+}
+
+#main-app .modal-header {
+    padding: 12px 12px 0 0
+}
+
+#main-app.SISJobStory .modal-dialog {
+    display: inherit
+}
+
+#main-app.SISJobStory .modal-header {
+    border-bottom: transparent
+}
+
+#main-app.SISJobStory.SISJobStorySMPY .modal-dialog {
+    width: 60% !important;
+    margin-top: 3em !important
+}
+
+@media screen and (max-width: 767px) {
+    #main-app.SISJobStory.SISJobStorySMPY .modal-dialog {
+        width: 90% !important
+    }
+}
+
+#main-app .modal {
+    text-align: center;
+    padding: 0 !important;
+    bottom: inherit
+}
+
+#main-app .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px
+}
+
+#main-app.SISJobStory .modal-dialog .header-flourish span.header-flourish-rounded-border {
+    background: #fff
+}
+
+#main-app .styles_roles_text {
+    font-size: .9em;
+    line-height: 1.2em
+}
+
+.SISReactUniversalis.SISPanelGridListElementModal .modal-dialog {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+@media screen and (max-width: 768px) {
+    #react-main-app-modals .modal-dialog {
+        width: 95%;
+        margin: 0 auto
+    }
+    .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog {
+        width: 90%;
+        margin: 0 auto
+    }
+}
+
+#main-app .carousel.fade .item {
+    left: 0 !important;
+    -webkit-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s
+}
+
+#main-app .carousel-control {
+    background-image: none !important
+}
+
+#main-app .carousel.fade .next.left, #main-app .carousel.fade .prev.right {
+    z-index: 1;
+    opacity: 1
+}
+
+#main-app .carousel.fade .active.left, #main-app .carousel.fade .active.right {
+    z-index: 2;
+    opacity: 0
+}
+
+#main-app .react-app-root[selectCLASS*=FACULTY] h3 {
+    color: #d5a10d
+}
+
+#main-app .react-app-root[selectclass*=UGPROJECTS] .panel.panel-ugprojects h4 {
+    font-size: 14px
+}
+
+.header-flourish {
+    line-height: .5;
+    text-align: center
+}
+
+.header-flourish span.header-flourish-rounded-border {
+    border: solid 3px #333;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #f1f1f1
+}
+
+.header-flourish span {
+    display: inline-block;
+    position: relative
+}
+
+.header-flourish:before {
+    content: "";
+    position: absolute;
+    height: 35px;
+    border-bottom: 2px solid #333;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    display: block
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.SMU.background.blue {
+    background: #151c55;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.theme_iscore {
+    background: #62bbb1;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.track_business {
+    background: #22bbe2
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.track_technical {
+    background: #efc206
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.track_technical_cs {
+    background: #9f7e45;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.theme_iscore2019 {
+    background: #43bbbe;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.theme_cscore2019 {
+    background: #607d8b;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.theme_clcore2020 {
+    background: #00293e;
+    color: #fff
+}
+
+#main-app .icon-adt, #main-app .icon-bzc, #main-app .icon-mjs, #main-app .icon-nmj {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background: #333;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height: 22px;
+    color: #121212;
+    font-weight: 700
+}
+
+#main-app .icon-mgmt, #main-app .icon-sosc, #main-app .icon-tech {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: #333;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    line-height: 16px;
+    color: #121212;
+    font-weight: 700
+}
+
+#main-app .icon-adt.margin-clear, #main-app .icon-bzc.margin-clear, #main-app .icon-mjs.margin-clear, #main-app .icon-nmj.margin-clear {
+    margin: 0
+}
+
+#main-app .icon-nmj {
+    background: #333;
+    color: #fff
+}
+
+#main-app .icon-bzc {
+    background: #22aae2
+}
+
+#main-app .icon-adt, #main-app .icon-tech {
+    background: #efc206
+}
+
+#main-app .icon-mgmt {
+    background: #151c55;
+    color: #fff
+}
+
+#main-app .icon-mjs {
+    background: #8a704c;
+    color: #fff
+}
+
+#main-app .icon-sosc {
+    background: #00704a;
+    color: #fff
+}
+
+#main-app .SISCurriculumTracks-explainer .panel .panel-footer {
+    border: none;
+    background: 0 0
+}
+
+@media screen and (max-width: 767px) {
+    #main-app .SISCurriculumTracks-explainer .panel .panel-footer {
+        position: static
+    }
+    #main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading h5, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading h5 {
+        height: 37px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #main-app .SISCurriculumTracks-explainer .panel .panel-footer {
+        position: absolute;
+        bottom: 7px;
+        right: 15px
+    }
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel, #main-app>#smu-sis-undergrad-curriculum-2017 .panel {
+    width: 100% !important;
+    margin: 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module {
+    padding: 5px 5px 0 5px;
+    margin: 2px 0;
+    min-height: 30px;
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading {
+    background: #f1f1f1;
+    padding: 3px;
+    border-bottom: solid 1px #333;
+    float: left;
+    width: 100%
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading h5, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading h5 {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading a, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading a {
+    width: 100%;
+    float: left;
+    font-size: 1.1em;
+    height: 24px;
+    background: 0 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading:hover, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading:hover {
+    background: #d5a10d;
+    cursor: pointer
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure a .panel, #main-app>#smu-sis-undergrad-curriculum-2017 a .panel {
+    background: #333;
+    border: solid 1px #d5a10d;
+    color: #d5a10d
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure a .panel label, #main-app>#smu-sis-undergrad-curriculum-2017 a .panel label {
+    color: #121212;
+    cursor: pointer
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure a:hover .panel, #main-app>#smu-sis-undergrad-curriculum-2017 a:hover .panel {
+    background: #333;
+    color: #fff
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure #options_control .panel {
+    padding: 2px
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main label, #smu-sis-undergrad-curriculum-structure label {
+    padding: 2.5px 4px;
+    background: #ccc;
+    border-radius: 3px
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main label.curriculum.total, #smu-sis-undergrad-curriculum-structure label.curriculum.total {
+    background: #252525;
+    color: #f1f1f1
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main label.curriculum.subtotal, #smu-sis-undergrad-curriculum-structure label.curriculum.subtotal {
+    background: #777;
+    color: #f1f1f1
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure #diagram_legend .icon, #main-app #smu-sis-undergrad-curriculum-2017_structure_main .icon {
+    margin: 0 5px
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main h5 {
+    margin: 4px auto
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main h6 {
+    margin: 5px auto;
+    line-height: 1em;
+    font-size: .9em
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main .row {
+    margin: 3px 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel .panel-body, #main-app>#smu-sis-undergrad-curriculum-2017 .panel .panel-body {
+    padding: 3px
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-options {
+    padding: 0;
+    margin: 0 0 3% 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-options.ctrl--radio label {
+    padding: 5px 5px 0 30px;
+    width: 100%;
+    height: 100%
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel:hover, #main-app #smu-sis-undergrad-curriculum-2017_structure_main .panel:hover {
+    position: static
+}
+
+#smu-sis-undergrad-curriculum-2017_structure a.text-underline-dotted.text-yellow {
+    color: #d5a10d !important;
+    text-decoration: underline dotted;
+    cursor: pointer
+}
+
+#smu-sis-undergrad-curriculum-2017_structure .hover-no-effect a {
+    position: inherit;
+    cursor: pointer
+}
+
+#main-app .panel.add-border-dgrey, #main-app .panel.curriculum {
+    border: solid 1px #333
+}
+
+.background.curriculum.adv_tech_skills {
+    background: #f38a20
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.adt, .background.curriculum.career_ready.adt {
+    background: #efc206;
+    filter: none
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.bzc, .background.curriculum.career_ready.bzc {
+    background: #22aae2;
+    filter: none
+}
+
+#smu-sis-undergrad-curriculum-structure a.SISBTNMOD-LG.background.curriculum.career_ready.mjs, #smu-sis-undergrad-curriculum-structure a.background.curriculum.career_ready.mjs, .SISBTNMOD-LG.background.curriculum.career_ready.mjs, .background.curriculum.career_ready.mjs {
+    background: #8a704c;
+    color: #fff;
+    filter: none
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.bsccs_itsd, .background.curriculum.career_ready.bsccs_itsd {
+    background: #607d8b;
+    filter: none
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.adt, .SISBTNMOD-LG.background.curriculum.career_ready.bzc, .SISBTNMOD-LG.background.curriculum.career_ready.mjs {
+    box-shadow: 2px 5px 5px #777
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.mjsone {
+    background: #fff;
+    color: #121212;
+    border: solid 2px #333
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.adt:hover, .SISBTNMOD-LG.background.curriculum.career_ready.bzc:hover {
+    color: #333
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.mjs:hover {
+    color: #fff;
+    border: solid 2px #fff
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.mjsone:hover {
+    color: #121212;
+    cursor: default
+}
+
+.SISBTNMOD-LG.background.curriculum.career_ready.CLElectives, .background.curriculum.career_ready.CLElectives {
+    background: #333f50;
+    filter: none
+}
+
+#smu-sis-undergrad-curriculum-structure a.SISBTNMOD-LG.background.curriculum.career_ready.adt.invert, #smu-sis-undergrad-curriculum-structure a.SISBTNMOD-LG.background.curriculum.career_ready.bzc.invert, .SISBTNMOD-LG.background.curriculum.career_ready.bzc.invert, .SISBTNMOD-LG.background.curriculum.career_ready.mjs.invert {
+    float: none;
+    width: 100%;
+    margin-right: 5px;
+    color: #fff !important;
+    background: #333 !important
+}
+
+.background.curriculum.career_ready, .background.curriculum.career_ready.bzc_.adt {
+    background: #22aae2;
+    background: -moz-linear-gradient(-75deg, #22aae2 0, #22aae2 50%, #efc206 50%, #efc206 100%);
+    background: -webkit-linear-gradient(-75deg, #22aae2 0, #22aae2 50%, #efc206 50%, #efc206 100%);
+    background: linear-gradient(165deg, #22aae2 0, #22aae2 50%, #efc206 50%, #efc206 100%)
+}
+
+.background.curriculum.career_ready.adt_.bzc {
+    background: #22aae2;
+    background: -moz-linear-gradient(-75deg, #efc206 0, #efc206 50%, #22aae2 50%, #22aae2 100%);
+    background: -webkit-linear-gradient(-75deg, #efc206 0, #efc206 50%, #22aae2 50%, #22aae2 100%);
+    background: linear-gradient(165deg, #efc206 0, #efc206 50%, #22aae2 50%, #22aae2 100%)
+}
+
+.background.curriculum.career_ready.adt_.cst, .background.curriculum.career_ready.adt_.mjs {
+    background: #efc206;
+    background: -moz-linear-gradient(-75deg, #efc206 0, #efc206 50%, #8a704c 50%, #8a704c 100%);
+    background: -webkit-linear-gradient(-75deg, #efc206 0, #efc206 50%, #8a704c 50%, #8a704c 100%);
+    background: linear-gradient(165deg, #efc206 0, #efc206 50%, #8a704c 50%, #8a704c 100%)
+}
+
+.background.curriculum.career_ready.bzc_.mjs {
+    background: #22aae2;
+    background: -moz-linear-gradient(-75deg, #22aae2 0, #22aae2 50%, #8a704c 50%, #8a704c 100%);
+    background: -webkit-linear-gradient(-75deg, #22aae2 0, #22aae2 50%, #8a704c 50%, #8a704c 100%);
+    background: linear-gradient(165deg, #22aae2 0, #22aae2 50%, #8a704c 50%, #8a704c 100%)
+}
+
+.background.curriculum.bscis_smt.core, .background.curriculum.career_ready.cst {
+    background: #8a704c
+}
+
+.background.curriculum.career_ready.cst_.adt {
+    background: #8a704c;
+    background: -moz-linear-gradient(-75deg, #8a704c 0, #8a704c 50%, #efc206 50%, #efc206 100%);
+    background: -webkit-linear-gradient(-75deg, #8a704c 0, #8a704c 50%, #efc206 50%, #efc206 100%);
+    background: linear-gradient(165deg, #8a704c 0, #8a704c 50%, #efc206 50%, #efc206 100%)
+}
+
+.SISBTNMOD-LG.background.curriculum.bsccs_itsd.core, .background.curriculum.bsccs_itsd.core {
+    background: #607d8b
+}
+
+.background.bsccomplaw.curriculum.core {
+    background: #00293e
+}
+
+.bsccomplaw.header-circle {
+    background: #00293e;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 0 !important;
+    position: relative;
+    border: solid 2px #4c6978;
+    border-radius: 25px;
+    padding-top: 7px !important;
+    top: 10px
+}
+
+.background.curriculum.is_foundations {
+    background: #62bbb1
+}
+
+.background.curriculum.smu_broad {
+    background: #151c55
+}
+
+.background.curriculum.SIS {
+    background: #d5a10d
+}
+
+.popover {
+    border: solid 1px #d5a10d
+}
+
+.popover.top {
+    margin-top: -3px
+}
+
+.popover.top>.arrow:after {
+    border-top-color: #333
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.panel-shape-smt-social-sciences, .panel-shape-smt-social-sciences {
+    background: #00714b;
+    color: #fff
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.panel-shape-smt-technology, .panel-shape-smt-technology {
+    background: #e3ab24;
+    color: #333
+}
+
+#main-app .panel-default.panel-sis>.panel-heading.panel-shape-smt-management, .panel-shape-smt-management {
+    background: #23225a;
+    color: #fff
+}
+
+#main-app blockquote.smusisug {
+    top: 15px;
+    border-left: none;
+    line-height: 1.2em;
+    font-size: 1.25em
+}
+
+#main-app blockquote.smusisug:before {
+    color: #121212;
+    display: inline;
+    position: relative;
+    content: open-quote;
+    height: 0;
+    line-height: 0;
+    top: .45em;
+    font-size: 7em
+}
+
+#main-app blockquote.smusisug:after {
+    color: #121212;
+    display: inline;
+    position: relative;
+    height: 0;
+    line-height: 0;
+    content: close-quote;
+    top: .45em;
+    font-size: 2.45em
+}
+
+#main-app .react-app-root[selectdatatype=PROFILES][selectarea=ADVISOR][selectclass=STREAMLINE] .panel {
+    width: 100%;
+    margin: 8px;
+    border: none !important;
+    background: 0 0
+}
+
+#main-app.smu_sis_undergraduate_faq .panel-default.panel-sis .panel-heading h5.panel-title>a {
+    text-transform: initial !important;
+    padding: 1px 0
+}
+
+#main-app.smu_sis_undergraduate_faq>.panel>.panel-collapse .panel-default.panel-sis .panel-heading {
+    background: #ddb33d !important
+}
+
+#main-app.smu_sis_undergraduate_faq .panel a {
+    cursor: pointer;
+    cursor: hand
+}
+
+.video-responsive {
+    width: 100%;
+    min-height: 340px
+}
+
+@media screen and (max-width: 767px) {
+    .video-responsive {
+        height: 340px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video-responsive {
+        height: 420px
+    }
+}
+
+@media (min-width: 768px) {
+    .site-header.scroll-down {
+        position: static
+    }
+}
+
+.sidebar ul.menu>li:not(.active-trail) {
+    display: none
+}
+
+.sidebar ul.menu li a.active, .sidebar ul.menu li a:hover, .sidebar ul.menu li span.active, .sidebar ul.menu li span:hover {
+    color: #d5a10d
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+    #main-app .active>div {
+        display: block
+    }
+}
+
+svg {
+    width: 100%;
+    max-height: 100%
+}
+
+svg a:hover {
+    text-decoration: none;
+    cursor: hand;
+    cursor: pointer
+}
+
+svg.hideCursor a:hover {
+    text-decoration: none;
+    cursor: default !important
+}
+
+#main-app :not(svg)>div {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in
+}
+
+#main-app .img-circle {
+    border: solid 1px #e7e7e7 !important;
+}
+
+#main-app a img:not(.img-circle), #main-app img:not(.img-circle), #main-app img:not(.img-circle) a {
+    border: none
+}
+
+#main-app a img {
+    border: 0
+}
+
+#main-app .scale-with-grid, #main-app img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+#main-app .hide {
+    display: none
+}
+
+#main-app h1, #main-app h2, #main-app h3, #main-app h4 {
+    line-height: 1em;
+    margin: 10px 0;
+    padding: 0
+}
+
+.SISBTNMOD, a.btn.SISBTNMOD, input.webform-submit {
+    display: inline-block;
+    margin: 2.5px auto;
+    padding: 5px;
+    color: #121212;
+    background: #d5a10d;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    border-radius: 8px;
+    border: solid 1px #333;
+    box-shadow: 2px 3px 3px #777
+}
+
+input.webform-submit {
+    margin: 3px 8px
+}
+
+.SISBTNMOD:hover, a.btn.SISBTNMOD:hover, input.webform-submit:hover {
+    position: relative;
+    top: -2px;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    box-shadow: 2px 5px 5px #777
+}
+
+.SISBTNMOD.invert, a.btn.SISBTNMOD.invert, a.btn.invert {
+    float: left;
+    width: auto;
+    margin-right: 5px;
+    color: #fff;
+    background: #333
+}
+
+.btn.SISBTNMOD.SISBTNMOD-LG, a.btn.SISBTNMOD.SISBTNMOD-LG {
+    width: 100%;
+    float: none;
+    font-weight: 400;
+    padding: 5px 4px;
+    border: solid 1px #333
+}
+
+.btn.SISBTNMOD.SISBTNMOD-LG.border, a.btn.SISBTNMOD.SISBTNMOD-LG.border {
+    border: solid 2px #333
+}
+
+button.btn.SISBTNMOD.SISBTNMOD-LG {
+    color: #333
+}
+
+a.btn.SISBTNMOD.SISBTNMOD-LG:hover, button.btn.SISBTNMOD.SISBTNMOD-LG:hover {
+    color: #fff;
+    font-weight: 300
+}
+
+.btn.SISBTNMOD.SISBTNMOD-LG.SISBTNMOD-PADDING-3, a.btn.SISBTNMOD.SISBTNMOD-LG.SISBTNMOD-PADDING-3 {
+    padding: 3px !important;
+}
+
+#links {
+    width: 545px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#links a {
+    float: left
+}
+
+.page-banner {
+    float: left;
+    clear: none;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center
+}
+
+.page-banner.smu-sis-postgrad-programmes {
+    background: url(//sis.smu.edu.sg/sites/sis.smu.edu.sg/files/sis/programmes/common/Postgrad_Programme_Banner_996px_325px.png) 50% 50% no-repeat
+}
+
+.page-banner.smu-sis-postgrad-master-applied-is {
+    background: #96712a url(//sis.smu.edu.sg/sites/default/files/sis/programmes/MAIS/MAIS-masthead-2.jpg) 50% 50% no-repeat
+}
+
+.page-banner.smu-sis-postgrad-phd-is {
+    background: url(//sis.smu.edu.sg/sites/sis.smu.edu.sg/files/sis/programmes/common/PHDIS_Programme_Banner_996px_325px.png) 50% 50% no-repeat
+}
+
+.page-banner.smu-sis-postgrad-msc-is {
+    background: url(//sis.smu.edu.sg/sites/sis.smu.edu.sg/files/sis/programmes/common/MScIS_Banner_996px_325px_0.png) 50% 50% no-repeat
+}
+
+.page-banner-navigation {
+    float: left;
+    clear: none;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center
+}
+
+.background-grey-dark, .page-banner-grey-dark {
+    color: #fff;
+    background-color: #333
+}
+
+.background-wild-olivia, .page-banner-wild-olivia {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/wild_oliva.png) repeat 50% 50%
+}
+
+.background-graphy-black, .page-banner-graphy-black {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/graphy.jpg) repeat 50% 50%
+}
+
+.background-diagmonds-dgrey, .page-banner-diagmonds-dgrey {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/diagmonds.png) repeat 50% 50%
+}
+
+.background-graphy-white, .page-banner-graphy-white {
+    background: #f1f1f1 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/graphy.png) repeat 50% 50%
+}
+
+.background-carto-dgrey, .page-banner-carto-dgrey {
+    background: #f1f1f1 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/cartographer.jpg) repeat 50% 50%
+}
+
+.background-dgrey-illusion3D, .page-banner-dgrey-illusion3D {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/use_your_illusion.png) repeat 50% 50%
+}
+
+.background-default-white, .page-banner-default-white {
+    background-color: #f1f1f1
+}
+
+.background-default-yellow, .page-banner-default-yellow {
+    background-color: #d5a10d
+}
+
+.background-blackboard, .page-banner-blackboard {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/blackboard.jpg) repeat 50% 50%
+}
+
+.background-shattered-island, .page-banner-shattered-island {
+    background: #f1f1f1 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/shattered_island.jpg) repeat 50% 50%
+}
+
+.background-shattered-island-milky, .page-banner-shattered-island-milky {
+    background: #f1f1f1 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/shattered_island_milky.jpg) repeat 50% 50%
+}
+
+.background-shattered-island-dyellow, .page-banner-shattered-island-dyellow {
+    background: #d5a10d url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/shattered_island_dyellow.jpg) repeat 50% 50%
+}
+
+.background-shattered-island-lblue, .page-banner-shattered-island-lblue {
+    background: #09f url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/shattered_island_lblue.jpg) repeat 50% 50%
+}
+
+.background-fss-dgrey-1, .page-banner-fss-dgrey-1 {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/fss-dark-grey-1.jpg) repeat 50% 50%;
+    background-size: 100%
+}
+
+.background-fss-dgrey-2, .page-banner-fss-dgrey-2 {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/fss-dark-grey-2.jpg) repeat 50% 50%;
+    background-size: 100%
+}
+
+.background-fss-dgrey-3, .page-banner-fss-dgrey-3 {
+    background: #333 url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/fss-dark-grey-3.4.jpg) repeat 50% 50%;
+    background-size: 100%
+}
+
+.page-banner-2015-COMMENCEMENT {
+    background: #0e235e url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/commencement15-banner-1.jpg) no-repeat 50% 50%
+}
+
+.page-banner-urban-mgmt-intro {
+    float: left;
+    clear: none;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #fff;
+    background: #09070c url(//sis.smu.edu.sg/sites/default/files/sis/lab/urbanmgtanalyticslab/intro_bg-urbanmgmtanalyticslab.jpg) no-repeat 50% 70%
+}
+
+.background-none {
+    background: 0 0 !important
+}
+
+.background-dark-grey {
+    background: #333
+}
+
+.background-light-grey {
+    background-color: #ccc
+}
+
+.background-plain-white {
+    background-color: #fff
+}
+
+.background-design-overlay {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(//sis.smu.edu.sg/sites/default/files/sis/design-bgs/mod-mask.png) repeat
+}
+
+.SIS.background {
+    color: #121212;
+    background: #d5a10d;
+    fill: #d5a10d
+}
+
+.SMU.background.SMU-gold {
+    background: #8a704c;
+    fill: #8a704c
+}
+
+.SMU.background.blue {
+    background: #151c55;
+    fill: #151c55
+}
+
+h1#page-title-intro {
+    font-size: 75px;
+    line-height: 60px;
+    position: relative;
+    width: 450px;
+    text-align: left
+}
+
+.page-banner.IST h1#page-title-intro {
+    font-size: 90px;
+    padding: 45px 0
+}
+
+h3.page-sub-heading {
+    font: 700 40px/35px proxima-nova-extra-condensed, sans-serif;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d5a10d
+}
+
+.text-dark, .text-dark a, h3.page-sub-heading.invert {
+    color: #333
+}
+
+.text-white, .text-white a, h3.page-sub-heading.white {
+    color: #fff
+}
+
+.text-left, h3.page-sub-heading.text-left {
+    text-align: left
+}
+
+.text-right, h3.page-sub-heading.text-right {
+    text-align: right
+}
+
+h3.page-heading {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: .35em;
+    color: #fff
+}
+
+@media screen and (max-width: 767px) {
+    h3.page-heading {
+        font-size: 2.5em;
+        line-height: .2em
+    }
+}
+
+h3.page-heading.text-yellow-dark {
+    color: #d5a10d
+}
+
+h3.page-heading.invert, h3.page-heading.text-grey-dark {
+    color: #333
+}
+
+h3.text-white a {
+    color: #fff
+}
+
+h4.page-heading {
+    font-size: 45px;
+    line-height: 35px;
+    color: #d5a10d
+}
+
+h4.page-sub-heading {
+    font-size: 35px;
+    line-height: 30px
+}
+
+h4.page-heading.text-white, h4.page-sub-heading.text-white {
+    color: #fff
+}
+
+.text-dark, h4.page-sub-heading.invert {
+    color: #333
+}
+
+h4.text-white a {
+    color: #fff
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.text-yellow-dark, .text-yellow-dark a {
+    color: #d5a10d
+}
+
+.text-purple-dark, .text-purple-dark a {
+    color: #4a166e
+}
+
+.text-grey-dark, .text-grey-dark a {
+    color: #222
+}
+
+.title-emphasis {
+    font-size: 5em;
+    line-height: .75em
+}
+
+.text-lowercase {
+    text-transform: lowercase
+}
+
+.text-uppercase {
+    text-transform: uppercase
+}
+
+#main-app h4.text-originalcase, #main-app h5.text-originalcase, #main-app h6.text-originalcase, .text-originalcase {
+    text-transform: initial
+}
+
+.text-classic {
+    font-family: 'Times New Roman', serif
+}
+
+.text-classic-subheader {
+    font: 400 15px/12px 'Times New Roman', sans-serif;
+    color: #fff
+}
+
+.text-classic-subheader.text-grey-dark {
+    color: #333
+}
+
+.text-classic-heading {
+    font-size: 18px;
+    line-height: 16px
+}
+
+.text-bold {
+    font-weight: 700
+}
+
+.text-underline-dotted {
+    display: inline;
+    color: #121212;
+    text-decoration: underline dotted #333
+}
+
+.text-underline-dotted.text-yellow-dark {
+    text-decoration: underline dotted #d5a10d
+}
+
+.text-underline-dotted.text-yellow-dark {
+    text-decoration: underline dotted #4a166e
+}
+
+.text-normal-larger {
+    font-size: 16px
+}
+
+.text-h4-larger {
+    font-size: 25px;
+    margin: -5px 0 15px 0
+}
+
+.text-rotate-cc-90deg {
+    transform: translateY(25%) rotate(-90deg);
+    transform-origin: 50% 50%
+}
+
+a.text-underline-dotted.text-white {
+    color: #fff
+}
+
+a.text-underline-dotted.text-white:hover {
+    color: #121212;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #333
+}
+
+a.text-underline-dotted.text-yellow-dark {
+    color: #d5a10d;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #d5a10d
+}
+
+a.text-underline-dotted.text-yellow-dark:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #fff
+}
+
+a.text-underline-dotted.text-yellow-dark.invert:hover {
+    color: #121212;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #333
+}
+
+a.text-underline-dotted.text-purple-dark {
+    color: #4a166e;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #4a166e
+}
+
+a.text-underline-dotted.text-purple-dark:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #fff
+}
+
+a.text-underline-dotted.text-purple-dark.invert:hover {
+    color: #121212;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #333
+}
+
+a.text-underline-dotted.text-grey-dark {
+    color: #333
+}
+
+a.text-underline-dotted.text-grey-dark:hover {
+    color: #121212;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #333
+}
+
+a.text-underline-dotted {
+    color: #333
+}
+
+a.text-underline-dotted:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #fff
+}
+
+a.text-underline-dotted.yellow:hover {
+    color: #d5a10d;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #d5a10d
+}
+
+.text-SMU-gold, .text-SMU-gold a, a.text-SMU-gold, h4.text-SMU-gold {
+    color: #8a704c
+}
+
+.text-SMU-blue, .text-SMU-blue a, a.text-SMU-blue, h4.text-SMU-blue {
+    color: #151c55
+}
+
+.one-seventh {
+    width: 14.285714%
+}
+
+.one-sixth {
+    width: 16.666667%
+}
+
+.box {
+    margin: 0 auto;
+    background: #fff
+}
+
+.box-percent-70 {
+    width: 70%;
+    margin: 0 auto
+}
+
+.box-percent-80 {
+    width: 80%;
+    margin: 0 auto
+}
+
+.box-percent-85 {
+    width: 85%;
+    margin: 0 auto
+}
+
+.box-percent-90 {
+    width: 90%;
+    margin: 0 auto
+}
+
+.box-percent-95 {
+    width: 95%;
+    margin: 0 auto
+}
+
+.box-yellow {
+    height: auto;
+    padding: 20px 0;
+    color: #121212;
+    background: #d5a10d
+}
+
+.add-inset-shadow {
+    -webkit-box-shadow: inset 0 0 15px 5px rgba(24, 24, 24, .5);
+    box-shadow: inset 0 0 15px 5px rgba(24, 24, 24, .5)
+}
+
+.add-box-shadow {
+    -webkit-box-shadow: 0 0 15px 5px rgba(24, 24, 24, .5);
+    box-shadow: 0 0 15px 5px rgba(24, 24, 24, .5)
+}
+
+.add-box-shadow-233-777 {
+    -webkit-box-shadow: 2px 3px 3px #777;
+    box-shadow: 2px 3px 3px #777
+}
+
+.add-box-shadow-233-777:hover {
+    -webkit-box-shadow: 2px 5px 5px #777;
+    box-shadow: 2px 5px 5px #777
+}
+
+.add-text-shadow {
+    text-shadow: 1px 1px 5px rgba(34, 34, 34, 1)
+}
+
+#main-app .panel.add-border-bottom-yellow-5px, #main-app img.add-border-bottom-yellow-5px, .add-border-bottom-yellow-5px {
+    border-bottom: solid 5px #d5a10d
+}
+
+#main-app .panel.add-border-dgrey, #main-app img.add-border-dgrey, .add-border-dgrey {
+    border: solid 1px #333
+}
+
+#main-app .panel.add-border-dgrey-3px .add-border-dgrey-3px, #main-app img.add-border-dgrey-3px {
+    border: solid 3px #333
+}
+
+#main-app .panel.add-border-yellow, #main-app img.add-border-yellow, .add-border-yellow {
+    border: solid 1px #d5a10d
+}
+
+#main-app .panel.add-border-yellow-left-1px, #main-app img.add-border-yellow-left-1px, .add-border-yellow-left-1px {
+    margin-left: -2px;
+    border-left: solid 1px #d5a10d
+}
+
+#main-app .panel.add-border-top-yellow-1px, #main-app img.add-border-top-yellow-1px, .add-border-top-yellow-1px {
+    border-top: solid 1px #d5a10d
+}
+
+#main-app .panel.add-border-bottom-yellow-1px, #main-app img.add-border-bottom-yellow-1px, .add-border-bottom-yellow-1px {
+    border-bottom: solid 1px #d5a10d
+}
+
+#main-app .panel.add-border-top-white-1px, #main-app img.add-border-top-white-1px, .add-border-top-white-1px {
+    border-top: solid 1px #fff
+}
+
+#main-app .panel.add-border-bottom-white-1px, #main-app img.add-border-bottom-white-1px, .add-border-bottom-white-1px {
+    border-bottom: solid 1px #fff
+}
+
+#main-app .panel.add-border-top-dgrey-1px, #main-app img.add-border-top-dgrey-1px, .add-border-top-dgrey-1px {
+    border-top: solid 1px #333
+}
+
+#main-app .panel.add-border-bottom-dgrey-1px, #main-app img.add-border-bottom-dgrey-1px, .add-border-bottom-dgrey-1px {
+    border-bottom: solid 1px #333
+}
+
+#main-app .panel.add-border-bottom-lgrey-1px, #main-app img.add-border-bottom-lgrey-1px, .add-border-bottom-lgrey-1px {
+    border-bottom: solid 1px #ddd
+}
+
+#main-app .panel.add-border-top-lblue-1px, #main-app img.add-border-top-lblue-1px, .add-border-top-lblue-1px {
+    border-top: solid 1px #09f
+}
+
+#main-app .panel.add-border-radius-5px, #main-app img.add-border-radius-5px, .add-border-radius-5px {
+    border-radius: 5px
+}
+
+#main-app .panel.add-border-radius-8px, #main-app img.add-border-radius-8px, .add-border-radius-8px {
+    border-radius: 8px
+}
+
+#main-app .panel.add-border-left-dgrey-1px, #main-app img.add-border-left-dgrey-1px, .add-border-left-dgrey-1px {
+    border-left: solid 1px #333
+}
+
+#main-app .panel.add-border-right-dgrey-1px, #main-app img.add-border-right-dgrey-1px, .add-border-right-dgrey-1px {
+    border-right: solid 1px #333
+}
+
+#main-app .panel.add-border-right-yellow-1px, #main-app img.add-border-right-yellow-1px, .add-border-right-yellow-1px {
+    border-right: solid 1px #d5a10d
+}
+
+#main-app .panel.add-border-right-white-1px, #main-app img.add-border-right-white-1px, .add-border-right-white-1px {
+    border-right: solid 1px #f1f1f1
+}
+
+#main-app .panel.add-border-lgrey, #main-app img.add-border-lgrey, .add-border-lgrey {
+    border: solid 1px #ccc
+}
+
+.add-border-right-lgrey-1px {
+    border-right: solid 1px #ccc
+}
+
+.add-border-left-lgrey-1px {
+    border-left: solid 1px #ccc
+}
+
+#main-app .panel.add-border-left-white-1px, #main-app img.add-border-left-white-1px, .add-border-left-white-1px {
+    border-left: solid 1px #f1f1f1
+}
+
+.icon-xs {
+    margin: 0;
+    padding: 5px 8px;
+    color: #d5a10d;
+    background: #333
+}
+
+.icon-xs.in-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 8px
+}
+
+#main-app .panel.CYBSEC.background, #main-app .panel.IST.background, .CYBSEC.background, .IST.background, .background.Cybersecurity,
+.icon-xs.CYBSEC.background, .icon-xs.IST.background, a.btn.SISBTNMOD.CYBSEC, a.btn.SISBTNMOD.IST {
+    color: #fff;
+    background: #09f
+}
+
+#main-app .panel.DMA.background, .DMA.background, .icon-xs.DMA.background, a.btn.SISBTNMOD.DMA, .background.Data-Science-amp-Engineering {
+    color: #fff;
+    background: #31859c
+}
+
+#main-app .panel.ISM.background, .ISM.background, .icon-xs.ISM.background, a.btn.SISBTNMOD.ISM, .background.Information-Systems-amp-Management {
+    color: #fff;
+    background: #7030a0
+}
+
+#main-app .panel.ISD.background, .ISD.background, .icon-xs.ISD.background, a.btn.SISBTNMOD.ISD, .background.Intelligent-Systems-amp-Optimization {
+    color: #fff;
+    background: #c03
+}
+
+#main-app .panel.SCPS.background, #main-app .panel.SS.background, .SCPS.background, .SS.background, .background.Software-amp-Cyber-Physical-Systems,
+.icon-xs.SCPS.background, .icon-xs.SS.background, a.btn.SISBTNMOD.SCPS, a.btn.SISBTNMOD.SS {
+    color: #fff;
+    background: #ce610f
+}
+
+#main-app .panel.URBANOPS.background, .URBANOPS.background, .icon-xs.URBANOPS.background, a.btn.SISBTNMOD.URBANOPS {
+    color: #fff;
+    background: #548235
+}
+
+#main-app .panel.ACTIVECOM.background, .ACTIVECOM.background, .icon-xs.ACTIVECOM.background, a.btn.SISBTNMOD.ACTIVECOM {
+    color: #fff;
+    background: #ed7d31
+}
+
+#main-app .panel.SAFETYSEC.background, .SAFETYSEC.background, .icon-xs.SAFETYSEC.background, a.btn.SISBTNMOD.SAFETYSEC {
+    color: #fff;
+    background: #1f295d
+}
+
+.border {
+    border: solid 2px #333
+}
+
+.DMA.border {
+    border: solid 2px #31859c
+}
+
+.CYBSEC.border, .IST.border {
+    border: solid 2px #09f
+}
+
+.ISM.border {
+    border: solid 2px #7030a0
+}
+
+.ISD.border, .ISDA.border {
+    border: solid 2px #c03
+}
+
+.SCPS.border, .SS.border {
+    border: solid 2px #ce610f
+}
+
+.LEARNIS.border, .LISE.border {
+    border: solid 2px #d5a10d
+}
+
+.AISC.border {
+    border: solid 2px #000c78
+}
+
+.SMU.border.SMU-gold, .SSCS.border {
+    border: solid 2px #8a704c
+}
+
+.URBANOPS.border {
+    border: solid 2px #548235
+}
+
+.ACTIVECOM.border {
+    border: solid 2px #ed7d31
+}
+
+.SAFETYSEC.border {
+    border: solid 2px #1f295d
+}
+
+a.btn.SISBTNMOD.ACTIVECOM:hover, a.btn.SISBTNMOD.DMA:hover, a.btn.SISBTNMOD.ISD:hover, a.btn.SISBTNMOD.ISM:hover, a.btn.SISBTNMOD.IST:hover, a.btn.SISBTNMOD.LEARNIS:hover, a.btn.SISBTNMOD.LISE:hover, a.btn.SISBTNMOD.SAFETYSEC:hover, a.btn.SISBTNMOD.SCPS:hover, a.btn.SISBTNMOD.SS:hover, a.btn.SISBTNMOD.URBANOPS:hover {
+    color: #fff;
+    background: #333
+}
+
+.padding-clear {
+    padding: 0
+}
+
+.padding-vertical-5 {
+    padding: 5px 0
+}
+
+.padding-vertical-10 {
+    padding: 10px 0
+}
+
+.padding-vertical-15 {
+    padding: 15px 0
+}
+
+.padding-3 {
+    padding: 3px
+}
+
+.padding-5 {
+    padding: 5px
+}
+
+.padding-10 {
+    padding: 10px
+}
+
+.padding-10-15 {
+    padding: 10px 15px
+}
+
+.padding-20 {
+    padding: 20px
+}
+
+.padding-30 {
+    padding: 30px
+}
+
+#main-app .panel.padding-40, .padding-40 {
+    padding: 40px
+}
+
+.padding-40-0 {
+    padding: 40px 0
+}
+
+.padding-75 {
+    padding: 75px
+}
+
+.margin-clear {
+    margin: 0
+}
+
+.margin-5 {
+    margin: 5px
+}
+
+.margin-vertical-3px {
+    margin: 3px auto
+}
+
+.margin-vertical-5 {
+    margin: 5px auto
+}
+
+.margin-vertical-10 {
+    margin: 10px auto
+}
+
+.navbar-default .resBRAND.navbar-brand {
+    padding: 20px 15px
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a.resNAV {
+        padding: 20px 15px
+    }
+}
+
+@media (max-width: 979px) {
+    .nav-collapse .dropdown-menu a.resLINK, .nav-collapse .nav>li>a.resLINK {
+        color: #fff
+    }
+}
+
+.navbar-default .navbar-nav>li>a.resLINK, .navbar-default a.resLINK {
+    color: #fff
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+.dropdown-menu > li > a {
+    padding: 8px 10px;
+}
+.dropdown-menu>li>a.DMA, .dropdown-menu>li>a.ISD, .dropdown-menu>li>a.ISM, .dropdown-menu>li>a.IST, .dropdown-menu>li>a.SS, li a.DMA, li a.ISD, li a.ISM, li a.IST, li a.SS {
+    color: #fff
+}
+
+.dropdown-menu>li>a.SIS, li a.SIS {
+    color: #333
+}
+
+li a.DMA {
+    background: #31859c
+}
+
+li a.IST {
+    background: #09f
+}
+
+li a.ISM {
+    background: #7030a0
+}
+
+li a.ISD {
+    background: #c03
+}
+
+li a.SS {
+    background: #ce610f
+}
+
+li a.SIS {
+    background: #d5a10d
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a.resLINK.SIS {
+    color: #333
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a.resLINK.SIS:hover {
+    color: #d5a10d
+}
+
+.listing-people-header {
+    padding: 5px 0
+}
+
+.listing-people {
+    min-height: 250px;
+    padding: 10px 0
+}
+
+a.listing-people-link:hover {
+    color: #d5a10d
+}
+
+.interest-point {
+    position: absolute;
+    border-radius: 50%
+}
+
+.interest-point>a {
+    position: relative;
+    top: -3px;
+    left: 8px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    transition: background-color .2s;
+    border-radius: inherit;
+    background: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .3)
+}
+
+.interest-point>a::after, .interest-point>a:before {
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    content: '';
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #fff
+}
+
+.interest-point>a::after {
+    width: 10px;
+    height: 2px
+}
+
+.interest-point>a::before {
+    width: 2px;
+    height: 10px
+}
+
+.interest-point::after {
+    position: absolute;
+    top: -3px;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-animation: ip-pulse 2s infinite;
+    -moz-animation: ip-pulse 2s infinite;
+    animation: ip-pulse 2s infinite;
+    border-radius: inherit;
+    background-color: transparent
+}
+
+@-webkit-keyframes ip-pulse {
+    0% {
+        -webkit-transform: scale(1);
+        box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, .8)
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(51, 51, 51, .8)
+    }
+    100% {
+        -webkit-transform: scale(1.6);
+        box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0)
+    }
+}
+
+@-moz-keyframes ip-pulse {
+    0% {
+        -moz-transform: scale(1);
+        box-shadow: inset 0 0 1px 1px rgba(51, 51, 51, .8)
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(51, 51, 51, .8)
+    }
+    100% {
+        -moz-transform: scale(1.6);
+        box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0)
+    }
+}
+
+@keyframes ip-pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        box-shadow: inset 0 0 1px 1px rgba(51, 51, 51, .8)
+    }
+    50% {
+        box-shadow: inset 0 0 1px 1px rgba(51, 51, 51, .8)
+    }
+    100% {
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -ms-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        transform: scale(1.6);
+        box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0)
+    }
+}
+
+#main-app .SISBOASECTION {
+    padding: 8px 0;
+    border-top: solid 1px #888
+}
+
+#main-app .panel .icon-xs.icon-visiting {
+    padding: 5px
+}
+
+#main-app .faclist-item .faclist-desig {
+    font-size: 11.5px
+}
+
+#main-app .smu-sis-research-overview h4 {
+    font-size: 1.125em
+}
+
+
+#main-app .smu-sis-research-overview .subresarea {
+    font-size: 14px;
+    font-weight: bold !important;
+    line-height: 1.1em;
+    padding: 4px
+}
+
+#main-app .smu-sis-research-overview .subresarea a {
+    color:#121212  !important;
+}
+
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    #main-app .smu-sis-research-overview .subresarea {
+        height: auto
+    }
+}
+
+#main-app.smu-sis-research-overview .one-fifth h4 {
+    font-size: 1.125em
+}
+
+#main-app.smu-sis-research-overview .research-areas-chart ul {
+    float: none;
+    width: 90%;
+    height: 420px;
+    margin: 0 auto;
+    padding: 0
+}
+
+#block-system-main #main-app.smu-sis-research-overview .research-areas-chart ul li, #main-app.smu-sis-research-overview .research-areas-chart ul li {
+    line-height: 14px;
+    float: left;
+    width: 100%;
+    height: 13%;
+    margin: 5px auto;
+    padding: 6px 5px 10px;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px
+}
+
+#main-app.smu-sis-research-overview .research-areas-chart-add-col {
+    height: 280px
+}
+
+#main-app.smu-sis-research-overview .research-areas-chart-add-col .fusion-sub-boxes {
+    line-height: 14px;
+    width: 100%;
+    margin: 5px auto;
+    padding: 4px 2px;
+    border-radius: 5px;
+    background: #f1f1f1
+}
+
+@media (max-width: 767px) {
+    #main-app.smu-sis-research-overview .research-areas-chart-add-col {
+        height: auto;
+        margin: 2px auto
+    }
+    #main-app.smu-sis-research-overview .research-areas-chart-add-col .fusion-sub-boxes {
+        width: 100%
+    }
+    #main-app.smu-sis-research-overview .add-border-left-lgrey-1px, #main-app.smu-sis-research-overview .add-border-right-lgrey-1px {
+        border: none
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-app.smu-sis-research-overview .research-areas-chart-add-col {
+        height: 320px
+    }
+}
+
+#main-app .title-track {
+    margin: 0;
+    padding: 8px 0 8px 25px;
+    text-align: left;
+    border-bottom: solid 1px #d5a10d
+}
+
+#main-app .title-track .caret {
+    margin: 10px 20px 0 0;
+    border-top: 10px solid #d5a10d;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent
+}
+
+#main-app .legend-item {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left
+}
+
+#main-app .icon-xs.icon-resarea {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18px;
+    height: 5px;
+    padding: 0;
+    border-top: solid 1px #333;
+    border-left: solid 1px #333
+}
+
+#main-app .icon-xs.icon-resarea.activate-secres {
+    display: none
+}
+
+#main-app .icon-xs.icon-resarea.icon-resarea-half {
+    position: absolute;
+    right: 19px;
+    bottom: 0;
+    width: 18px;
+    height: 5px;
+    padding: 0;
+    border-top: solid 1px #333;
+    border-left: solid 1px #333
+}
+
+#main-app .icon-xs.icon-resarea.icon-legend {
+    position: static;
+    width: 100%;
+    border: none
+}
+
+#main-app .icon-legend-label {
+    float: left
+}
+
+#main-app .icon-reslink, .icon-reslink {
+    width: 16px
+}
+
+#main-app .icon-xs.icon-reslink {
+    float: left;
+    width: 32px;
+    background: 0 0
+}
+
+#main-app .legend-item.reslink {
+    padding: 0
+}
+
+#main-app .panel .icon-xs {
+    padding: 3px 0
+}
+
+a .panel.panel-clis {
+    color: #333
+}
+
+.smu-sis-cli-urbandecisionoptimlab .app-box {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: #d5a10d
+}
+
+.smu-sis-cli-urbandecisionoptimlab .app-box-menu {
+    height: 25px;
+    border-bottom: solid 1px #555;
+    background: url(//sis.smu.edu.sg/sites/default/files/sis/lab/urbanmgtanalyticslab/appbox-controls.png) no-repeat 0 50%;
+    background-size: 10%
+}
+
+.smu-sis-cli-urbandecisionoptimlab .operator, .smu-sis-cli-urbandecisionoptimlab .operator_data-flow, .smu-sis-cli-urbandecisionoptimlab .visitor, .smu-sis-cli-urbandecisionoptimlab .visitor_data-flow {
+    width: 50%;
+    height: 150px
+}
+
+.smu-sis-undergrad-2nd-majors-analytics .page-banner-2nd-major-analytics {
+    clear: none;
+    width: 100%;
+    height: 340px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background: #373735 url(//sis.smu.edu.sg/sites/default/files/sis/programmes/BSc-ISM/2nd-majors/analytics/analytics-banner-2-June-2014.jpg) no-repeat 50% 100%;
+    background-size: auto
+}
+
+.smu-sis-undergrad-2nd-majors-analytics .well a {
+    color: #333
+}
+
+.smu-sis-undergrad-2nd-majors-analytics #track-specific .well .collapse {
+    height: 215px
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank .tbank-model-diagram-box {
+    line-height: 14px;
+    min-height: 60px;
+    padding: 10px 0;
+    color: #121212;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    background: #d5a10d
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank .header-swimlane.core-bank-sys {
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-reference-architecture {
+    color: #333
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-reference-architecture-channels {
+    height: 120px;
+    padding: 10px 0
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-reference-architecture-enterprise-platforms {
+    height: 250px;
+    padding: 10px 0
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-reference-architecture-core-bank-sys {
+    height: 160px;
+    padding: 10px 0
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank .tbank-research-box {
+    width: 90%;
+    height: 110px;
+    margin: 10px auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #121212;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    background: #d5a10d
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-engagement {
+    padding: 12px
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-engagement .tbank-model-diagram-box {
+    height: 70px
+}
+
+.smu-sis-initiatives-finsvctops-teaching-bank #model-engagement .tbank-model-diagram-box.engage-vert {
+    width: 90%;
+    height: 140px;
+    margin: 10px auto 0 auto;
+    padding: 0
+}
+
+@media (max-width: 767px) {
+    .smu-sis-initiatives-finsvctops-teaching-bank #model-engagement .tbank-model-diagram-box.engage-vert {
+        width: 90%;
+        height: auto;
+        margin: 5px auto
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .smu-sis-initiatives-finsvctops-teaching-bank #model-engagement .tbank-model-diagram-box.engage-vert {
+        height: 180px
+    }
+}
+
+table.responsive-data-transform td {
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333
+}
+
+table.responsive-data-transform td:last-child {
+    border-right: 1px solid #333
+}
+
+table.responsive-data-transform th {
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    background: #333
+}
+
+table.responsive-data-transform td, table.responsive-data-transform th {
+    padding: 8px;
+    vertical-align: top
+}
+
+@media screen and (max-width: 600px) {
+    table.responsive-data-transform thead {
+        display: none
+    }
+    table.responsive-data-transform tr {
+        display: block;
+        width: 90%;
+        margin: 12px auto;
+        border: 1px solid #333
+    }
+    table.responsive-data-transform td {
+        font-size: 14px;
+        display: block;
+        text-align: right;
+        border-right: none;
+        border-bottom: 1px dotted #ccc;
+        border-left: none
+    }
+    table.responsive-data-transform td ul {
+        display: none
+    }
+    table.responsive-data-transform td:last-child {
+        border-right: none;
+        border-bottom: 0
+    }
+    table.responsive-data-transform td:before {
+        font-weight: 700;
+        float: left;
+        content: attr(data-label);
+        text-transform: uppercase
+    }
+}
+
+.text-curriculum-core, .text-curriculum-tracks-groups, .text-sis-next-undergrad {
+    font-size: 1em;
+    font-family: Nunito, sans-serif;
+    font-weight: 700
+}
+
+#main-app.font-family-nunito-sans-serif svg text {
+    font-family: Nunito, sans-serif;
+    font-weight: 700
+}
+
+.text-smt-application-supra-dom {
+    font-size: .9em
+}
+
+.text-curriculum-tracks-groups {
+    fill: #231f20
+}
+
+.text-curriculum-tracks, .text-sis-next-undergrad-sub {
+    font-size: .825em;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    fill: #231f20
+}
+
+.text-smt-application-sub-dom {
+    font-size: .75em
+}
+
+.text-curriculum-core, .text-sis-next-undergrad-sub.text-white, .text-smt-application-sub-dom.text-white, .text-white {
+    fill: #fff
+}
+
+.text-gold {
+    fill: #95784a
+}
+
+.shape-smt-sub {
+    fill: #555
+}
+
+.shape-smt-supra-mgmt {
+    fill: #23225a
+}
+
+.shape-smt-supra-sosc {
+    fill: #00714b
+}
+
+.shape-smt-supra-tech {
+    fill: #e3ab24
+}
+
+.text-curriculum-tracks.text-curriculum-tracks-subtitle {
+    fill: #333;
+    font-size: .6em
+}
+
+.text-curriculum-core-themes {
+    font-size: .725em;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    fill: #fff
+}
+
+#technical_track_line1, #technical_track_line2 {
+    fill: none;
+    stroke: #efc206;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 10px
+}
+
+#professional_track_line1, #professional_track_line2 {
+    fill: none;
+    stroke: #22aae2;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 10px
+}
+
+.animation_line_tracer {
+    fill: none;
+    stroke: red;
+    stroke-miterlimit: 10;
+    opacity: 0
+}
+
+.displaySTATIC #professional_track_line1, .displaySTATIC #professional_track_line2, .displaySTATIC #smu_core, .displaySTATIC #technical_track_line1, .displaySTATIC #technical_track_line2, .displaySTATIC #text_is_core, .displaySTATIC .professional_tracks_text, .displaySTATIC .technical_tracks_text, .displaySTATIC .text-curriculum-core-themes, .displaySTATIC .text-curriculum-tracks, .displaySTATIC .theme_shape {
+    opacity: 1 !important
+}
+
+.displaySTATIC .track_shape {
+    clip-path: none !important
+}
+
+#smu_core, #text_is_core, #venn_line_biz, #venn_line_bizit, #venn_line_it, .professional_tracks_text, .technical_tracks_text, .text-curriculum-core-themes, .text-curriculum-tracks {
+    opacity: 0
+}
+
+.track_business, .track_shape.track_business {
+    fill: #22aae2;
+    background: #22aae2
+}
+
+.track_shape.track_technical, .track_technical {
+    fill: #efc206;
+    background: #efc206
+}
+
+.track_shape.track_technical_cs, .track_technical_cs {
+    fill: #9f7e45;
+    background: #9f7e45
+}
+
+.theme_innovation, .theme_iscore, .theme_it_solutioning, .theme_shape.theme_innovation, .theme_shape.theme_it_solutioning, .theme_shape.theme_value_creation {
+    fill: #62bbb1;
+    background: #62bbb1
+}
+
+.svg_hover.selected .theme_shape, .svg_hover:hover circle#smu_core, .theme.selected .theme_shape, .theme.svg_hover:hover .theme_shape, .theme.track_selected .theme_shape, .track.selected .track_shape, .track.svg_hover:hover .track_shape, .track.track_selected .track_shape {
+    fill: #333;
+    stroke: #d5a10d;
+    stroke-width: 3px
+}
+
+.track.svg_hover:hover .shape-smt-sub {
+    fill: #95784a;
+    stroke-width: 0
+}
+
+.track.svg_hover:hover .shape-smt-supra, .track.svg_hover:hover .shape-smt-supra-mgmt, .track.svg_hover:hover .shape-smt-supra-sosc, .track.svg_hover:hover .shape-smt-supra-tech {
+    fill: #333;
+    stroke: none
+}
+
+.svg_hover:hover text.text-sis-next-undergrad, .track.svg_hover:hover text.st21.st22, .track.svg_hover:hover text.text-sis-next-undergrad, .track.svg_hover:hover text.text-smt-application-supra-dom {
+    fill: #fff
+}
+
+.theme.svg_hover:hover .text-curriculum-core-themes, .theme.track_selected .text-curriculum-core-themes, .track.svg_hover:hover .text-curriculum-tracks, .track.track_selected .text-curriculum-tracks {
+    fill: #fff;
+    text-decoration: none
+}
+
+#venn_line_biz, .track-biz, .track-business {
+    fill: #22aae2;
+    background: #22aae2
+}
+
+#venn_line_it, .track-it, .track-tech {
+    fill: #efc206;
+    background: #efc206
+}
+
+#venn_line_bizit, .track-bizit, .track-biztech {
+    fill: #0f0d0a;
+    background: #0f0d0a
+}
+
+.track-bizit>h3, .track-biztech>h3 {
+    color: #fff
+}
+
+circle.track-bizit, circle.track-biztech {
+    opacity: .8
+}
+
+.text-tracks-venn {
+    font-size: 1.4em;
+    font-weight: 700;
+    fill: #fff
+}
+
+.track-it.text-tracks-venn {
+    fill: #333
+}
+
+.SISCurriculumCircleCS-10, .SISCurriculumCircleCS-11, .SISCurriculumCircleCS-12, .SISCurriculumCircleCS-4, .SISCurriculumCircleCS-8 {
+    font-family: Nunito-Bold, Nunito;
+    font-weight: 700
+}
+
+.SISCurriculumCircleCS-10, .svg_core_smu {
+    font-size: 12px
+}
+
+.SISCurriculumCircleCS-11 {
+    font-size: 38.6px
+}
+
+.SISCurriculumCircleCS-12, .SISCurriculumCircleCS-4, .SISCurriculumCircleCS-8 {
+    font-size: 9.617px
+}
+
+.svg_tracks {
+    font-size: 9.9px;
+    font-weight: 700
+}
+
+.svg_themes {
+    font-size: 8.6px;
+    font-weight: 700;
+    fill: #fff
+}
+
+.svg_appdom {
+    font-size: 7.229px;
+    font-weight: 700;
+    fill: #fff
+}
+
+.svg_coresmt {
+    font-size: 6.25px;
+    font-weight: 700;
+    fill: #fff
+}
+
+.svg_tracks.text-white {
+    fill: #fff
+}
+
+.SISCurriculumCircleCS-3 {
+    fill: #e8bd1f
+}
+
+.SISCurriculumCircleCS-4 {
+    fill: #68676a
+}
+
+.SISCurriculumCircleCS-11, .st21 {
+    fill: #231f20
+}
+
+.SISCurriculumCircleCS-5 {
+    fill: none
+}
+
+.SISCurriculumCircleCS-9 {
+    fill: #1c296a
+}
+
+.SISCurriculumCircleCS-2, .svg_tracks_cs2019 {
+    fill: #9f7e45
+}
+
+.svg_tracks_is2019 {
+    fill: #e4bb36
+}
+
+.svg_core_themes_is2019 {
+    fill: #43bbbe
+}
+
+.SISCurriculumCircleCS-1 {
+    fill: #d0d2d3
+}
+
+.svg_core_themes_cs2019 {
+    fill: #607d8b
+}
+
+.svg_core_themes_cl2020 {
+    fill: #00293e
+}
+
+.svg_appdom_core {
+    fill: #97784a
+}
+
+.SISCurriculumCircleCS-10, .SISCurriculumCircleCS-12, .SISCurriculumCircleCS-6, .st1, .track.selected.svg_hover .svg_tracks, .track.svg_hover:hover .SISCurriculumCircleCS-11, .track.svg_hover:hover .SISCurriculumCircleCS-8, .track.svg_hover:hover .svg_themes, .track.svg_hover:hover .svg_tracks {
+    fill: #fff
+}
+
+.st2 {
+    font-size: 40px
+}
+
+.st19 {
+    font-size: 30px
+}
+
+.st22 {
+    font-size: 24px
+}
+
+.st43 {
+    font-size: 35px
+}
+
+@media screen and (max-width: 767px) {
+    svg#SISCurriculumCircle {
+        height: 400px
+    }
+}
+
+#main-app ul li {
+    padding: 0 0 3px 0
+}
+
+#main-header .page-title {
+    display: inline-block
+}
+
+#main-app .panel-default>.panel-heading {
+    color: #181818
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel, #main-app .panel.panel-sis {
+    border: solid 1px #ddd !important;
+    margin: 2px 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-border-none, #main-app .panel.panel-sis.panel-border-none {
+    border: none !important
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading a, #main-app #smu-sis-undergrad-curriculum-2017_structure_main label, #main-app .panel h5, #main-app .panel-title h5, #main-app h5, #main-app h5.panel-title, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading a {
+    font-size: 100%;
+    font-weight: 400
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading a, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading a {
+    padding: 5px;
+    height: 30px
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading {
+    background: #c69200
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading:hover, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading:hover {
+    background: #333;
+    color: #fff
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading:hover span label, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading:hover span label {
+    color: #333
+}
+
+#main-app h5.pull-left {
+    font-weight: 700
+}
+
+#main-app .nav-tabs>li {
+    padding: 0
+}
+
+#main-app .nav-tabs>li>a {
+    padding: 8px 5px
+}
+
+#main-app .react-app-root[selectdatatype=LISTINGS][selectclass=BSCDEPTHELECTIVES] .panel {
+    padding: 0
+}
+
+#smu-sis-undergrad-curriculum-structure a.btn.SISBTNMOD.SISBTNMOD-LG.curriculum.invert, #smu-sis-undergrad-curriculum-structure a.btn.SISBTNMOD.SISBTNMOD-LG:hover {
+    background: #333;
+    color: #fff
+}
+
+.SISBTNMOD, a.btn.SISBTNMOD, input.webform-submit {
+    text-transform: uppercase;
+    float: left;
+    font-size: 12.5px;
+    padding: 8px !important;
+    font-weight: 400 !important;
+    margin: 1px 0;
+    text-align: center;
+    line-height: inherit;
+    white-space: normal;
+    cursor: pointer
+}
+
+a.SISBTNMOD.SISBTNMOD-LG, a.btn.SISBTNMOD.SISBTNMOD-LG {
+    width: 100%
+}
+
+.SISBTNMOD.btn-transparent-white, a.btn.SISBTNMOD.btn-transparent-white, input.webform-submit {
+    background: 0 0;
+    color: #fff !important;
+    border: solid 1px #fff !important
+}
+
+.SISBTNMOD.btn-transparent-gold, a.btn.SISBTNMOD.btn-transparent-gold {
+    background: 0 0;
+    color: #70542b !important;
+    border: solid 1px #70542b !important
+}
+
+.SISBTNMOD.btn-transparent-dyellow, a.btn.SISBTNMOD.btn-transparent-dyellow {
+    background: 0 0;
+    color: #c69200 !important;
+    border: solid 1px #c69200 !important
+}
+
+.SISBTNMOD.btn-transparent-gold:hover, a.btn.SISBTNMOD.btn-transparent-gold:hover {
+    background: #70542b !important;
+    color: #fff !important
+}
+
+.SISBTNMOD.btn-transparent-dyellow:hover, a.btn.SISBTNMOD.btn-transparent-dyellow:hover {
+    background: #c69200;
+    color: #fff !important
+}
+
+.SISBTNMOD.btn-transparent-white.invert, .SISBTNMOD.btn-transparent-white:hover, a.btn.SISBTNMOD.btn-transparent-white.invert, a.btn.SISBTNMOD.btn-transparent-white:hover {
+    background: #fff !important;
+    color: #333 !important
+}
+
+.SISBTNMOD.btn-transparent-dgrey, a.btn.SISBTNMOD.btn-transparent-dgrey, input.webform-submit {
+    background: 0 0;
+    color: #333 !important;
+    border: solid 1px #333 !important
+}
+
+.SISBTNMOD.btn-transparent-dgrey.invert, .SISBTNMOD.btn-transparent-dgrey:hover, a.btn.SISBTNMOD.btn-transparent-dgrey.invert, a.btn.SISBTNMOD.btn-transparent-dgrey:hover {
+    background: #333 !important;
+    color: #fff !important
+}
+
+#main-app .subtitle {
+    font-size: 12px
+}
+
+#main-app .header-flourish span.header-flourish-rounded-border, #main-app .panel, #main-app .panel.panel-sis, .SISBTNMOD, .SISBTNMOD.btn-transparent-white, .add-border-radius-5px, .add-border-radius-8px, a.btn.SISBTNMOD, a.btn.SISBTNMOD.btn-transparent-white, input.webform-submit {
+    border-radius: 0 !important
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main label {
+    text-align: center
+}
+
+#main-app .panel.hover-expand {
+    -webkit-box-shadow: inset 0 -10px 25px 0 rgba(241, 241, 241, 1);
+    -moz-box-shadow: inset 0 -10px 25px 0 rgba(241, 241, 241, 1);
+    box-shadow: inset 0 -10px 25px 0 rgba(241, 241, 241, 1)
+}
+
+#main-app .header-flourish::after, #main-app .header-flourish::before {
+    border: none
+}
+
+.background.SIS {
+    background: #c69200 !important
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading a, #main-app #smu-sis-undergrad-curriculum-2017_structure_main label, #main-app .header-flourish span.header-flourish-rounded-border, #main-app .nav-tabs>li>a, #main-app .panel h5, #main-app .panel-title h5, #main-app h1, #main-app h2, #main-app h3, #main-app h4, #main-app h5, #main-app h5.panel-title, #main-app h6, #main-app.font-family-nunito-sans-serif svg text, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading a, .SISCurriculumCircleCS-10, .SISCurriculumCircleCS-11, .SISCurriculumCircleCS-12, .SISCurriculumCircleCS-4, .SISCurriculumCircleCS-8, .font-family-nunito-sans-serif, .nav-tabs>li>a, .text-curriculum-core, .text-curriculum-core-themes, .text-curriculum-tracks, .text-curriculum-tracks-groups, .text-sis-next-undergrad, .text-sis-next-undergrad-sub {
+    font-family: inherit
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel h4, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h5, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel h4.font-family-oswald, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h5.font-family-oswald, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h6.font-family-oswald, #main-app #smu-sis-undergrad-curriculum-2017_structure label.font-family-oswald, #main-app .panel h4, #main-app .panel h5, #main-app .panel-default.panel-sis>.panel-heading, #main-app .panel-default.panel-sis>.panel-heading a, #main-app .panel-title h4, #main-app .panel-title h5, #main-app h1, #main-app h2, #main-app h3, #main-app h4, #main-app h4.panel-title, #main-app h5, #main-app h5.panel-title, #main-app.font-family-nunito-sans-serif h1, #main-app.font-family-nunito-sans-serif h2, #main-app.font-family-nunito-sans-serif h3, #main-app.font-family-nunito-sans-serif h4, #main-app.font-family-nunito-sans-serif h5, #main-app.font-family-nunito-sans-serif h6, .SISBTNMOD, .SISBTNMOD.btn-transparent-white, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h3, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h4, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h5, .modal-dialog h3, .modal-dialog h4, .modal-dialog h5, a.btn.SISBTNMOD, a.btn.SISBTNMOD.btn-transparent-white, input.webform-submit {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+#main-app .panel h4.text-originalcase, #main-app .panel h5.text-originalcase, #main-app .panel-title h4.text-originalcase, #main-app .panel-title h5.text-originalcase, #main-app h3.text-originalcase, #main-app h4.text-originalcase, #main-app h4.text-originalcase.panel-title, #main-app h5.text-originalcase, #main-app h5.text-originalcase.panel-title, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h3.text-originalcase, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h4.text-originalcase, .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog h5.text-originalcase, .modal-dialog h3.text-originalcase, .modal-dialog h4.text-originalcase, .modal-dialog h5.text-originalcase {
+    text-transform: inherit !important
+}
+
+#main-app .navbar-header {
+    margin: 0 !important
+}
+
+.SISBTNMOD, .SISBTNMOD.btn-transparent-white, .SISBTNMOD.btn-transparent-white:hover, 
+.SISBTNMOD:hover, a.btn.SISBTNMOD, a.btn.SISBTNMOD.btn-transparent-white, 
+a.btn.SISBTNMOD.btn-transparent-white:hover, a.btn.SISBTNMOD:hover, input.webform-submit, input.webform-submit:hover {
+    position: static;
+    box-shadow: 1px 1px 1px #ccc
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure label.font-family-oswald {
+    font-weight: 700
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel h4.panel-title.text-originalcase, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h5.panel-title.text-originalcase, #main-app #smu-sis-undergrad-curriculum-2017_structure .panel h6.panel-title.text-originalcase, #main-app #smu-sis-undergrad-curriculum-2017_structure label.font-family-oswald.text-originalcase {
+    text-transform: initial
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.margin-clear {
+    margin: 0 !important
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading h5, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading h5 {
+    padding: 6px 0 0 0
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure .panel.panel-module .panel-heading h5 a, #main-app>#smu-sis-undergrad-curriculum-2017 .panel.panel-module .panel-heading h5 a {
+    padding: 0
+}
+
+h4.header-flourish {
+    font-size: 21px;
+    font-weight: 700
+}
+
+.header-flourish span.header-flourish-rounded-border {
+    border: none;
+    text-transform: uppercase;
+    background: 0 0;
+    padding-bottom: 11px
+}
+
+.header-flourish span.header-flourish-rounded-border::after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    width: 50px;
+    border: 2.5px solid #9a7e4b
+}
+
+#main-app blockquote.smusisug::after, #main-app blockquote.smusisug::before, blockquote.smusisug::after, blockquote.smusisug::before {
+    font-family: Oswald, sans-serif !important
+}
+
+img.photo-person {
+    border: solid 3px rgba(198, 146, 0, .7) !important
+}
+
+img.photo-person.photo-person-sol {
+    border: solid 3px rgba(74, 22, 110, .7) !important
+}
+
+#main-app .progress {
+    border-radius: 0
+}
+
+#main-app .progress-bar {
+    color: inherit
+}
+
+#main-app #smu-sis-undergrad-curriculum-2017_structure_main .row {
+    margin: 0
+}
+
+.sidebar ul.menu>li:not(.active-trail) {
+    display: block !important
+}
+
+#main-app nav.navbar-default {
+    background: #fff
+}
+
+#main-app .navbar-default .navbar-brand {
+    font-weight: 700;
+    color: #333
+}
+
+#main-app .navbar-default .navbar-nav>li {
+    padding-bottom: 1px
+}
+
+#main-app .navbar-default .navbar-nav>li:not(.dropdown):hover,
+#main-app .navbar-default .navbar-nav>li>a:hover, 
+#main-app .navbar-default a:hover {
+    background: #333;
+    color: #c69200
+}
+
+table {
+    width: 100%
+}
+
+table th, td {
+    padding: 3px;
+    border: solid 1px #ddd
+}
+
+table tr.header th {
+    background: #d5a10d;
+    color: #121212;
+    text-transform: uppercase
+}
+
+.content .panel-heading a {
+    color: inherit
+}
+
+.panel-group .panel-heading a[aria-expanded=true]::after {
+    content: '\f068' !important;
+    font-family: "Font Awesome 5 Free", sans-serif
+}
+
+.panel-group .panel-heading a:not([aria-expanded=true])::after {
+    content: '\f067' !important;
+    font-family: "Font Awesome 5 Free", sans-serif
+}
+
+.SISReactUniversalis.SISPanelGridListElementModal .modal-dialog, .modal-dialog {
+    border-radius: 0 !important;
+    border: solid 1px #333 !important
+}
+
+.SISReactUniversalis.SISPanelGridListElementModal .modal-dialog.modal-expand-full-width, .modal-dialog.modal-expand-full-width {
+    width: 90% !important
+}
+
+@media screen and (max-width: 767px) {
+    .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog, .modal-dialog {
+        width: 90% !important;
+        margin-top: 10px !important
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .SISReactUniversalis.SISPanelGridListElementModal .modal-dialog, .modal-dialog {
+        width: 50% !important;
+        margin-top: 15% !important
+    }
+}
+
+#main-header {
+    position: fixed !important;
+    z-index: 900 !important;
+    top: -65px !important;
+    left: 0 !important;
+    width: 100% !important;
+    box-shadow: 1px 1px 1px rgba(51, 51, 51, .8) !important
+}
+/* 
+    Reference: https://stackoverflow.com/questions/5684160/can-the-not-pseudo-class-have-multiple-arguments 
+*/
+body.research.landing-page #main-content,
+body:not(.programmes-postgraduate):not(.programmes-undergraduate):not(.landing-page) #main-content,
+body[class*=overview] #main-content {
+    padding-top: 240px !important
+}
+
+@media screen and (max-width: 767px) {
+    #main-header {
+        height: 360px;
+        padding-top: 260px !important;
+        opacity: 0.95;
+    }
+    body.research.landing-page #main-content,
+    body:not(.programmes-postgraduate):not(.programmes-undergraduate):not(.landing-page) #main-content,
+    body[class*=overview] #main-content {
+        padding-top: 260px !important;
+    }
+    .breadcrumb {
+        padding: 5px 0 0 8px;
+        font-size: 11px;
+        margin: 0;
+    }
+    h1.title#page-title {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #main-header {
+        height: 320px;
+        padding-top: 250px !important;
+        opacity: 0.85;
+        background: cover;
+    }
+    body.research.landing-page #main-content,
+    body:not(.programmes-postgraduate):not(.programmes-undergraduate):not(.landing-page) #main-content,
+    body[class*=overview] #main-content {
+        padding-top: 240px !important
+    }
+    .breadcrumb {
+        padding: 5px 0 0 1px;
+        font-size: 11px;
+        margin: 0;
+    }
+    h1.title#page-title {
+        font-size: 26px;
+        padding-top: 1px;
+    }
+} 
+
+.bsc-information-systems-majors-smart-city-management-technology #main-header {
+    position: fixed !important;
+    z-index: 900 !important;
+    top: -65px !important;
+    left: 0 !important;
+    width: 100% !important;
+    box-shadow: 1px 1px 1px rgba(51, 51, 51, .8) !important
+}
+
+.bsc-information-systems-majors-information-systems #main-header {
+    position: fixed !important;
+    z-index: 900 !important;
+    top: -65px !important;
+    left: 0 !important;
+    width: 100% !important;
+    box-shadow: 1px 1px 1px rgba(51, 51, 51, .8) !important
+}
+
+.bsc-information-systems-majors-information-systems #main-content, .bsc-information-systems-majors-smart-city-management-technology #main-content {
+    padding-top: 260px !important
+}
+
+@media screen and (max-width: 767px) {
+    .bsc-information-systems-majors-information-systems #main-header, .bsc-information-systems-majors-smart-city-management-technology #main-header {
+        height: 305px;
+        padding-top: 270px !important;
+        opacity: 0.95;
+    }
+    .bsc-information-systems-majors-information-systems #main-content, .bsc-information-systems-majors-smart-city-management-technology #main-content {
+        padding-top: 230px !important;
+    }
+    .bsc-information-systems-majors-information-systems .breadcrumb, .bsc-information-systems-majors-smart-city-management-technology .breadcrumb {
+        display: none;
+    }
+    .bsc-information-systems-majors-information-systems h1.title#page-title, .bsc-information-systems-majors-smart-city-management-technology h1.title#page-title {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bsc-information-systems-majors-information-systems #main-header, .bsc-information-systems-majors-smart-city-management-technology #main-header {
+        height: 320px;
+        padding-top: 250px !important;
+        opacity: 0.85;
+        background: cover;
+    }
+    .bsc-information-systems-majors-information-systems #main-content, .bsc-information-systems-majors-smart-city-management-technology #main-content {
+        padding-top: 240px !important
+    }
+    .bsc-information-systems-majors-information-systems .breadcrumb, .bsc-information-systems-majors-smart-city-management-technology .breadcrumb {
+        padding: 5px 0 0 1px;
+        font-size: 11px;
+        margin: 0;
+    }
+    .bsc-information-systems-majors-information-systems h1.title#page-title, .bsc-information-systems-majors-smart-city-management-technology h1.title#page-title {
+        font-size: 26px;
+        padding-top: 1px;
+    }
+}
+
+
+
+.bsc-information-systems-majors-information-systems #main-header.scroll-shift,
+#main-header.scroll-shift {
+    height: 260px;    
+    padding-top: 205px !important; 
+}
+.bsc-information-systems-majors-information-systems #main-header.scroll-shift .breadcrumb 
+#main-header.scroll-shift .breadcrumb {
+    font-size: 10px;
+    padding-left: 0;
+}
+.bsc-information-systems-majors-information-systems #main-header.scroll-shift h1#page-title ,
+#main-header.scroll-shift h1#page-title {
+    font-size:16px;
+    padding-left: 0;
+}
+
+#block-block-301.block-block {
+    padding: 0 !important
+}
+
+/* multiselect-react-dropdown CSS mods */
+#main-app ul.optionContainer li.option { padding: 5px; border-bottom:solid 1px #CCC;  }
+#main-app ul.optionContainer li.highlight.option {  background:#FFF; }
+#main-app ul.optionContainer li.option:hover { padding:5px; background:rgb(198, 146, 0) none repeat scroll 0% 0%; }
